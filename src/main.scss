@@ -1,0 +1,15 @@
+$first: tomato;
+$second: lightgreen;
+$third: yellow;
+
+h1 {
+  color: $first;
+}
+
+h2 {
+  color: $second;
+}
+
+p {
+  color: $third;
+}
