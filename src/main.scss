@@ -1,31 +1,38 @@
 /* VAR */
 // Colors
-$font_first-color: tomato;
-$font_second-color: blue;
-// Background colors
-$bg_first-color: #e2e2e2;
-$bg_second-color: green;
-$bg_third-color: yellow;
+$first-color: tomato;
+$second-color: blue;
+$third-color: #e2e2e2;
+$fourth-color: green;
+$fifth-color: yellow;
 // Typography
 $font_bold: bold;
 
-
+/* LAYOUT */
 body {
-  background-color: $bg_first-color;
-}
-
-h1 {
-  color: $font_second-color;
-  background-color: $bg_third-color;
+  background-color: $third-color;
 }
 
 h2 {
-  color: $font_second-color;
-  background-color: $bg_third-color;
+  color: $second-color;
+  background-color: $fifth-color;
 }
 
-p {
-  font-weight: $font_bold;
-  color: $font_first-color;
-  background-color: $bg_second-color;
+h3 {
+  color: $second-color;
+  background-color: $fifth-color;
+}
+
+.paragraphs p {
+  color: $first-color;
+  background-color: $fourth-color;
+}
+
+.paragraphs {
+  p:first-child,
+  p:last-child {
+    color: $fifth-color;
+    background-color: $second-color;
+    font-weight: $font_bold;
+  }
 }

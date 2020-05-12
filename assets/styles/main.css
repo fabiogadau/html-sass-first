@@ -1,12 +1,9 @@
 /* VAR */
 
+/* LAYOUT */
+
 body {
   background-color: #e2e2e2;
-}
-
-h1 {
-  color: blue;
-  background-color: yellow;
 }
 
 h2 {
@@ -14,10 +11,21 @@ h2 {
   background-color: yellow;
 }
 
-p {
-  font-weight: bold;
+h3 {
+  color: blue;
+  background-color: yellow;
+}
+
+.paragraphs p {
   color: tomato;
   background-color: green;
+}
+
+.paragraphs p:first-child,
+.paragraphs p:last-child {
+  color: yellow;
+  background-color: blue;
+  font-weight: bold;
 }
 
 
