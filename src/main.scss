@@ -1,13 +1,11 @@
 /* VAR */
 // Colors
 $font_first-color: tomato;
-$font_second-color: orange;
-$font_third-color: blue;
+$font_second-color: blue;
 // Background colors
 $bg_first-color: #e2e2e2;
 $bg_second-color: green;
 $bg_third-color: yellow;
-$bg_fourth-color: black;
 // Typography
 $font_bold: bold;
 
@@ -17,17 +15,17 @@ body {
 }
 
 h1 {
-  color: $font_first-color;
-  background-color: $bg_fourth-color;
+  color: $font_second-color;
+  background-color: $bg_third-color;
 }
 
 h2 {
   color: $font_second-color;
-  background-color: $bg_second-color;
+  background-color: $bg_third-color;
 }
 
 p {
   font-weight: $font_bold;
-  color: $font_third-color;
-  background-color: $bg_third-color;
+  color: $font_first-color;
+  background-color: $bg_second-color;
 }

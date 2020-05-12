@@ -5,19 +5,19 @@ body {
 }
 
 h1 {
-  color: tomato;
-  background-color: black;
+  color: blue;
+  background-color: yellow;
 }
 
 h2 {
-  color: orange;
-  background-color: green;
+  color: blue;
+  background-color: yellow;
 }
 
 p {
   font-weight: bold;
-  color: blue;
-  background-color: yellow;
+  color: tomato;
+  background-color: green;
 }
 
 
