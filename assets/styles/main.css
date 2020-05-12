@@ -1,13 +1,23 @@
+/* VAR */
+
+body {
+  background-color: #e2e2e2;
+}
+
 h1 {
   color: tomato;
+  background-color: black;
 }
 
 h2 {
-  color: lightgreen;
+  color: orange;
+  background-color: green;
 }
 
 p {
-  color: yellow;
+  font-weight: bold;
+  color: blue;
+  background-color: yellow;
 }
 
 
